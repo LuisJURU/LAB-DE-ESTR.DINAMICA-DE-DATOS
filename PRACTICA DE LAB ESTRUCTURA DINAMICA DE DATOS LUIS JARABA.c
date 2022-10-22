@@ -25,7 +25,7 @@ int main ()
     do
     {
         printf("\n|-------------------------------------|");
-        printf("\n|               * COLA *              |");
+        printf("\n|      * LISTA CIRCULAR SIMPLE *      |");
         printf("\n|-------------------|-----------------|");
         printf("\n| 1. Insertar       | 4. Desplegar    |");
         printf("\n| 2. Buscar         | 5. Salir        |");
@@ -39,21 +39,21 @@ int main ()
 
         case 1:
             system("CLS");
-            printf("\n\n INSERTAR NODO EN LA COLA \n\n");
+            printf("\n\n INSERTAR NODO EN LA LISTA \n\n");
             InsertarNodo();
             break;
         case 2:
             system("CLS");
-            printf("\n\n BUSCAR UN NODO EN LA COLA \n\n");
+            printf("\n\n BUSCAR UN NODO EN LA LISTA \n\n");
             BuscarNodo();
             break;
         case 3:
             system("CLS");
-            printf("\n\n ELIMINAR UN NODO DE LA COLA \n\n");
+            printf("\n\n ELIMINAR UN NODO DE LA LISTA \n\n");
             EliminarNodo();
             break;
         case 4:
-            printf("\n\n DESPLEGAR COLA DE NODOS \n\n");
+            printf("\n\n DESPLEGAR LISTA DE NODOS \n\n");
             DesplegarCola();
             break;
         case 5:
